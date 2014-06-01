@@ -61,7 +61,7 @@ class Solver(SolverBase):
 
 	if master:
 		print '-'*60
-		print 'Number of              time step: ', problem.Nts
+		print 'Number of              time step: ', problem.N_timesteps
 		print 'Size   of              time step: ', problem.dt
 		print 'Maximum iterations per time step: ', max_iter
 		print 'Maximum iterations 1st time step: ', iter_1

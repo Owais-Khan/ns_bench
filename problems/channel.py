@@ -50,10 +50,16 @@ class Problem(ProblemBase):
         # Set end-time
         self.T = 0.5
 
-	self.dt=self.T/1000
+	#Number of time steps
+	self.N_timesteps=100.
+
+	#Temporal resolution
+	self.dt=self.T/self.N_timesteps
 	
 	#current t
 	self.t=0
+
+
 
 
     def initial_conditions(self, V, Q):

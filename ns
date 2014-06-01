@@ -32,7 +32,7 @@ OPTIONS = {
 	   "segregated"           :True,
            "mesh_name"            :"lshape_2",
            "timesteps"            :1000,
-           "cycles"               :1,
+           "cycles"               :3,
            "period"               :951,
            "viscosity"            :0.0035,
            "uOrder"               :2,
